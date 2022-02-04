@@ -1,0 +1,26 @@
+{
+  "name": "prima",
+  "version": "1.0.0",
+  "description": "FUDGE_Server starts on Heroku using this package.json",
+  "main": "",
+  "scripts": {
+    "start": "node Server/Server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JirkaDellOro/Prima.git"
+  },
+  "author": "Jirka Dell'Oro-Friedl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JirkaDellOro/Prima/issues"
+  },
+  "homepage": "https://github.com/JirkaDellOro/Prima#readme",
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "node": "^14.18.1",
+    "webrtc-adapter": "^8.1.0",
+    "websocket": "^1.0.32",
+    "ws": "^7.5.5"
+  }
+}
